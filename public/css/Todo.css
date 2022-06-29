@@ -1,0 +1,95 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.todo-list-app {
+    background-color: white;
+    color:black;
+    width: 40%;
+    margin: auto;
+    
+}
+.nav-todo-list {
+    padding: 15px;
+}
+.title-todo {
+    text-align: center;
+}
+.input-todo {
+    display: flex;
+    padding: 10px;
+  
+}
+
+.input-todo input {
+    width: 88%;
+    height: 40px;
+    line-height:30px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.input-todo button {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.item-todo {
+    padding:15px ;
+    color:black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 0px 12px 0px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.content-todo-list input {
+    margin-right: 10px;
+}
+
+.icon-todo-list {
+    display: flex;
+}
+
+.icon-edit-todo i {
+    margin-right: 15px;
+    color:#1E90FF ;
+}
+.icon-delete-todo i {
+    color: red;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+.todo {
+    cursor: pointer;
+}
+
+.btn-clear-complete button {
+    width: 130px;
+    height: 30px;
+    border: 0;
+    line-height: 30px;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
