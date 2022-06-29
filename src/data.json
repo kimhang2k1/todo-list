@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "task": "Give dog a bath",
+    "task": "Xem phim",
     "complete": false
   },
   {
     "id": 2,
-    "task": "Give cat a bath",
+    "task": "Đi làm",
     "complete": false
   }
 ]
